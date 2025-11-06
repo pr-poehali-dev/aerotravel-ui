@@ -19,7 +19,7 @@ export default function VRPreview() {
     {
       name: 'Париж',
       subtitle: 'Эйфелева башня',
-      image: '/placeholder.svg',
+      image: 'https://cdn.poehali.dev/projects/69510c59-46aa-4a63-9a98-568a93fcf98d/files/a6d98781-7a93-4cd2-afcc-b617914af7ad.jpg',
       duration: '2:50'
     }
   ];

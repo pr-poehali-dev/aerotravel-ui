@@ -92,7 +92,7 @@ export default function InteractiveMap() {
                     >
                       <div className="relative">
                         <div className="w-4 h-4 md:w-6 md:h-6 bg-gradient-to-br from-primary to-secondary rounded-full animate-pulse-glow glow group-hover:scale-150 transition-all"></div>
-                        <div className="absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity bg-slate-900/90 px-3 py-1 rounded-lg text-xs md:text-sm border border-primary/30">
+                        <div className="absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity bg-slate-900/90 px-3 py-1 rounded-lg text-xs md:text-sm border border-primary/30 text-white">
                           {country.name}
                         </div>
                       </div>

@@ -15,7 +15,7 @@ export default function TravelInsights() {
       title: 'Топ-5 направлений 2025 года',
       category: 'Тренды',
       readTime: '7 мин',
-      image: '/placeholder.svg',
+      image: 'https://cdn.poehali.dev/projects/69510c59-46aa-4a63-9a98-568a93fcf98d/files/4f451952-2e61-47d7-a7dd-a6acb81333a0.jpg',
       excerpt: 'Куда поедут путешественники в новом году'
     },
     {
@@ -29,7 +29,7 @@ export default function TravelInsights() {
       title: 'Экологичный туризм: как путешествовать ответственно',
       category: 'Экология',
       readTime: '6 мин',
-      image: '/placeholder.svg',
+      image: 'https://cdn.poehali.dev/projects/69510c59-46aa-4a63-9a98-568a93fcf98d/files/7546b9c3-fefc-44e2-ab31-9dfdf04a58b8.jpg',
       excerpt: 'Сохраняем планету для будущих поколений'
     }
   ];
