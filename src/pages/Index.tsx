@@ -3,6 +3,16 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import Icon from '@/components/ui/icon';
+import InteractiveMap from '@/components/InteractiveMap';
+import SmartPlanner from '@/components/SmartPlanner';
+import TravelCalculator from '@/components/TravelCalculator';
+import TravelInsights from '@/components/TravelInsights';
+import VRPreview from '@/components/VRPreview';
+import AICategories from '@/components/AICategories';
+import PartnersSection from '@/components/PartnersSection';
+import MembershipSection from '@/components/MembershipSection';
+import WeatherGuide from '@/components/WeatherGuide';
+import ChatSupport from '@/components/ChatSupport';
 
 export default function Index() {
   const [searchData, setSearchData] = useState({
@@ -257,6 +267,16 @@ export default function Index() {
         </div>
       </section>
 
+      <InteractiveMap />
+      <SmartPlanner />
+      <TravelCalculator />
+      <AICategories />
+      <TravelInsights />
+      <VRPreview />
+      <WeatherGuide />
+      <PartnersSection />
+      <MembershipSection />
+
       <footer className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-12 px-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
@@ -305,6 +325,8 @@ export default function Index() {
           </div>
         </div>
       </footer>
+
+      <ChatSupport />
     </div>
   );
 }
